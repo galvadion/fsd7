@@ -1,0 +1,277 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Shampoo",
+      "description": "Con esto te limpias el pelo y queda joya",
+      "price": 100,
+      "stock": 5,
+      "offer": null,
+      "category": "Higiene",
+      "img": "images/post1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Pizza congelada",
+      "description": "Con esto tus clientes te adoran",
+      "price": 200,
+      "stock": 3,
+      "offer": null,
+      "category": "Comida",
+      "img": "images/post2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Gift Card",
+      "description": "Para regalar y regalarse, para el bolsillo de la dama y cartera del caballero",
+      "price": 600,
+      "stock": -1,
+      "offer": null,
+      "category": "Random",
+      "img": "images/post3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "loren ipsum",
+      "description": "Sit amet",
+      "price": 10000,
+      "stock": 100,
+      "offer": [
+        {
+          "id": 1,
+          "validUntil": "2021-10-10T03:00:00.000Z",
+          "discount": 0.7,
+          "limit": false,
+          "description": "70 por ciento precio siempre"
+        },
+        {
+          "id": 3,
+          "validUntil": "2025-11-05T03:00:00.000Z",
+          "discount": 0.5,
+          "limit": false,
+          "description": "Mitad de precio siempre"
+        }
+      ],
+      "category": "Random",
+      "img": "images/post4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Gift Carc",
+      "description": "Para regalar y regalarse, para el bolsillo de la dama y cartera del caballero",
+      "price": 600,
+      "stock": -1,
+      "offer": null,
+      "category": "Random",
+      "img": "images/post5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Shampoo Ultrawash",
+      "description": "Con esto el pelo te quedo gris",
+      "price": 500,
+      "stock": 2,
+      "offer": null,
+      "category": "Higiene",
+      "img": "images/post1.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Empanadas caprese",
+      "description": "Empanadas de atún",
+      "price": 50,
+      "stock": 50,
+      "offer": [
+        {
+          "id": 2,
+          "validUntil": "2025-11-05T03:00:00.000Z",
+          "discount": 0.2,
+          "limit": false,
+          "description": "Aprovechame ahora"
+        }
+      ],
+      "category": "Comida",
+      "img": "images/post2.jpg"
+    },
+    {
+      "id": 8,
+      "name": "fafafa",
+      "description": "fafafafafafa",
+      "price": 600,
+      "stock": -1,
+      "offer": null,
+      "category": "Random",
+      "img": "images/post4.jpg"
+    },
+    {
+      "id": 9,
+      "name": "falafel",
+      "description": "falafel",
+      "price": 20,
+      "stock": 100,
+      "offer": [
+        {
+          "id": 1,
+          "validUntil": "2025-11-05T03:00:00.000Z",
+          "discount": 0.5,
+          "limit": false,
+          "description": "Mitad de precio siempre"
+        }
+      ],
+      "category": "Comida",
+      "img": "images/post2.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Sake",
+      "description": "Un gato fachero facherito.",
+      "price": 200,
+      "stock": -1,
+      "offer": null,
+      "category": "Gato",
+      "img": "images/post4.jpg"
+    }
+  ],
+  "direcciones": [
+    {
+      "id": 1,
+      "calle": "8 de octubre",
+      "nroPuerta": 2440,
+      "esquina": "Abreu"
+    },
+    {
+      "id": 2,
+      "calle": "Andes",
+      "nroPuerta": 1932,
+      "esquina": "Colonia"
+    },
+    {
+      "id": 3,
+      "calle": "San jose",
+      "nroPuerta": 882,
+      "esquina": "Julio Herrera y Obes"
+    },
+    {
+      "id": 4,
+      "calle": "Mercedez",
+      "nroPuerta": 1932,
+      "esquina": "sadadas"
+    },
+    {
+      "id": 5,
+      "calle": "Cualca",
+      "nroPuerta": 9899,
+      "esquina": "Cacaca"
+    },
+    {
+      "id": 1,
+      "calle": "Mercedez",
+      "nroPuerta": 883,
+      "esquina": "Mercedes"
+    }
+  ],
+  "tareas": [
+    {
+      "task": "Pasear al toby",
+      "priority": "priority-high",
+      "id": 0
+    },
+    {
+      "task": "Hacer preguntas en Slack",
+      "priority": "priority-low",
+      "id": 1
+    },
+    {
+      "task": "Limpiar el cuarto",
+      "priority": "priority-medium",
+      "id": 2
+    },
+    {
+      "task": "Pasear al toby",
+      "priority": "priority-high",
+      "id": 3
+    },
+    {
+      "task": "Pasear al toby",
+      "priority": "priority-high",
+      "id": 4
+    },
+    {
+      "task": "asdsada",
+      "priority": "priority-low",
+      "id": 6
+    },
+    {
+      "task": "Agregar un elemento",
+      "priority": "priority-medium",
+      "id": 7
+    },
+    {
+      "task": "sadasdas",
+      "priority": "priority-low",
+      "id": 8
+    },
+    {
+      "task": "dsadasdas",
+      "priority": "priority-low",
+      "id": 9
+    },
+    {
+      "task": "asdsadas",
+      "priority": "priority-medium",
+      "id": 10
+    },
+    {
+      "task": "dasdsad",
+      "priority": "priority-high",
+      "id": 11
+    },
+    {
+      "task": "asdasdsa",
+      "priority": "priority-medium",
+      "id": 12
+    },
+    {
+      "task": "sfdsfs",
+      "priority": "priority-low",
+      "id": 13
+    },
+    {
+      "task": "asdsada",
+      "priority": "priority-low",
+      "id": 14
+    },
+    {
+      "task": "asdas",
+      "priority": "priority-high",
+      "id": 15
+    },
+    {
+      "task": "sadsa",
+      "priority": "priority-low",
+      "id": 16
+    },
+    {
+      "task": "sadasd",
+      "priority": "priority-medium",
+      "id": 17
+    },
+    {
+      "task": "sadsad",
+      "priority": "priority-medium",
+      "id": 18
+    }
+  ],
+  "hospitals": [
+    {
+      "name": "asdasda",
+      "description": "sadasda",
+      "id": 1
+    },
+    {
+      "name": "asdasd",
+      "description": "dsadasdasdada",
+      "id": 2
+    }
+  ]
+}
