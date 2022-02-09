@@ -7,7 +7,7 @@ const TaskList = ({taskList}) => { //desestructuring de un objeto
       <ul id="lista-tareas">
           {
             taskList.map((value) => {
-              return <li key={value.id} className={value.priority}>{value.id} - {value.text}</li>
+              return <li key={value.id} className={value.priority}>{value.id} - {value.task}</li>
             })
           }
         </ul>

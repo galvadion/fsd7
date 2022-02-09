@@ -66,21 +66,21 @@ li:hover {
   box-shadow: 0 10px 5px 0 rgba(90, 95, 101, 0.2);
 }
 
-.prioridad-alta {
+.priority-high {
   color: #721c24;
   background-color: #f8d7da;
   border: 1px solid #f5c6cb;
   border-left: 7px solid #f5c6cb;
 }
 
-.prioridad-media {
+.priority-medium {
   color: #856404;
   background-color: #fff3cd;
   border: 1px solid #ffeeba;
   border-left: 7px solid #ffeeba;
 }
 
-.prioridad-baja {
+.priority-low {
   color: #004085;
   border: 1px solid #b8daff;
   border-left: 7px solid #b8daff;

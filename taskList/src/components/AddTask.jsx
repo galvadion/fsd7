@@ -2,7 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 
 
-const AddTask = (props) => {
+const AddTask = (props) => {  // {task, priority}
 
     const [taskName,setTaskName] = useState('Pepito')
     const [priority,setPriority] = useState('')
