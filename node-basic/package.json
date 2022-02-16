@@ -1,0 +1,16 @@
+{
+  "name": "node-basic",
+  "version": "1.0.0",
+  "description": "App básica",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js"
+  },
+  "keywords": [],
+  "author": "diego.becco",
+  "license": "ISC",
+  "dependencies": {
+    "cowsay": "^1.5.0"
+  }
+}
