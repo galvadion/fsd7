@@ -182,84 +182,19 @@
       "id": 1
     },
     {
-      "task": "Limpiar el cuarto",
       "priority": "priority-medium",
+      "task": "Pepito",
       "id": 2
     },
     {
-      "task": "Pasear al toby",
       "priority": "priority-high",
+      "task": "GDAFADS",
       "id": 3
     },
     {
-      "task": "Pasear al toby",
-      "priority": "priority-high",
+      "priority": "priority-low",
+      "task": "Pepitoasdasd",
       "id": 4
-    },
-    {
-      "task": "asdsada",
-      "priority": "priority-low",
-      "id": 6
-    },
-    {
-      "task": "Agregar un elemento",
-      "priority": "priority-medium",
-      "id": 7
-    },
-    {
-      "task": "sadasdas",
-      "priority": "priority-low",
-      "id": 8
-    },
-    {
-      "task": "dsadasdas",
-      "priority": "priority-low",
-      "id": 9
-    },
-    {
-      "task": "asdsadas",
-      "priority": "priority-medium",
-      "id": 10
-    },
-    {
-      "task": "dasdsad",
-      "priority": "priority-high",
-      "id": 11
-    },
-    {
-      "task": "asdasdsa",
-      "priority": "priority-medium",
-      "id": 12
-    },
-    {
-      "task": "sfdsfs",
-      "priority": "priority-low",
-      "id": 13
-    },
-    {
-      "task": "asdsada",
-      "priority": "priority-low",
-      "id": 14
-    },
-    {
-      "task": "asdas",
-      "priority": "priority-high",
-      "id": 15
-    },
-    {
-      "task": "sadsa",
-      "priority": "priority-low",
-      "id": 16
-    },
-    {
-      "task": "sadasd",
-      "priority": "priority-medium",
-      "id": 17
-    },
-    {
-      "task": "sadsad",
-      "priority": "priority-medium",
-      "id": 18
     }
   ],
   "hospitals": [

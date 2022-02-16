@@ -27,13 +27,12 @@ function TaskManager() {
       .then((data) => data.json())
       .then(data =>{
         setTaskList(taskList.concat(data))
-        setLoading(false)
       })
       .catch(e=>{
         console.log("Hubo un error")
         setHasError(true)
-        setLoading(false)
       })
+      .finally(() => setLoading(false))
   }
 
   useEffect(()=>{
@@ -41,13 +40,12 @@ function TaskManager() {
       .then((data) => data.json())
       .then(data =>{
         setTaskList(data)
-        setLoading(false)
       })
       .catch(e=>{
         console.log("Hubo un error")
         setHasError(true)
-        setLoading(false)
       })
+      .finally(() =>setLoading(false))
   },
     []) 
 
