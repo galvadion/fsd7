@@ -7,6 +7,7 @@ function Buttons() {
         <>
             <Link to="/triangles">Triangles</Link>
             <Link to="/tasks">Tasks</Link>
+            <Link to="/greeting">Greeting</Link>
         </>
     )
 }
