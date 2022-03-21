@@ -8,20 +8,28 @@ function Triangles(){
     const [sideC, setSideC] = useState(0)
 
     const [triangles, setTriangles] = useState([])
+    const [errorMessage, setErrorMessage] = useState('')
 
     const calculate = () => {        
-        if(isEquilaterus()){
-            setTriangles(triangles.concat(`${sideA} Equilatero`))
-        }else if(sideA == sideB  || sideB == sideC || sideA == sideC){
-            setTriangles(triangles.concat(`${sideA}-${sideB}-${sideC} Isosceles`))
-        }else setTriangles(triangles.concat(`${sideA}-${sideB}-${sideC} Escaleno`))
+        fetch(`http://localhost:4000/triangles?sideA=${sideA}&sideB=${sideB}&sideC=${sideC}`)
+        .then(data => {
+            if(data.status == 200)
+                return data.json()
+            else throw new Error(data.text().then(data=> setErrorMessage(data)))
+        })
+        .then(data => {
+                console.log(data)
+                setTriangles(data)
+                setErrorMessage('')
+            }    
+        )
     }
 
     useEffect(()=>{
         resetSides()
     },[triangles])
 
-    const isEquilaterus = () => sideA == sideB && sideA == sideC
+    
     
     const resetSides = () => {
         setSideA(0)
@@ -31,11 +39,16 @@ function Triangles(){
 
     return(
         <>
-            <input value={sideA} id="sideA" onChange={(e)=> setSideA(e.target.value)} />
-            <input value={sideB} onChange={(e)=> setSideB(e.target.value)}/>
-            <input value={sideC} onChange={(e)=> setSideC(e.target.value)}/>
+            <input value={sideA} type="number" id="sideA" 
+                onChange={(e)=> setSideA(e.target.value)} />
+            <input value={sideB} type="number" 
+                onChange={(e)=> setSideB(e.target.value)}/>
+            <input value={sideC} type="number" 
+                onChange={(e)=> setSideC(e.target.value)}/>
             <button onClick={calculate} >Calcular</button>
+            {errorMessage}
             <ul>
+                
             {
                 triangles.map((value,index)=>{
                     return (

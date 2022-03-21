@@ -1,20 +1,16 @@
 import React, {useState} from "react";
 
-
 const Greeting = () => {
     const [name,setName] = useState("");
     const [message,setMessage] = useState("");
 
     const setGreeting = () => {
         let trimmedName = name.trim()
-        if(isEmpty(trimmedName)) setMessage('Hello, my friend.')
-        else if(isUpperCase(trimmedName)) setMessage(`HELLO ${trimmedName}`)
-        else setMessage(`Hello, ${trimmedName}.`)
+        fetch('http://localhost:4000/hola/'+trimmedName)
+        .then(data => data.text())
+        .then((data=>setMessage(data)))
+       
     }
-
-    const isUpperCase = (name) => name.toUpperCase() == name
-
-    const isEmpty = (name) => name == ""
 
     return (
         <>
